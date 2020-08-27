@@ -82,7 +82,7 @@ def getTotalScore():
 	return ((len(wormCoords) - 3) * 10)
 
 def drawPressKeyMsg():
-	pressKeyText = FONT.render('Press A Key To Play', True, YELLOW)
+	pressKeyText = FONT.render('Presiona cualquier tecla para jugar', True, YELLOW)
 	pressKeyRect = pressKeyText.get_rect()
 	pressKeyRect.center = (WINDOWWIDTH - 200, WINDOWHEIGHT - 100)
 	SCREEN.blit(pressKeyText, pressKeyRect)
@@ -129,7 +129,7 @@ def showGameOverScreen():
 	gameOverText = gameOverFont.render('Game Over', True, WHITE)
 	gameOverRect = gameOverText.get_rect()
 	totalscoreFont = pygame.font.Font('freesansbold.ttf', 40)
-	totalscoreText = totalscoreFont.render('Total Score: %s' % (getTotalScore()), True, WHITE)
+	totalscoreText = totalscoreFont.render('Puntaje total: %s' % (getTotalScore()), True, WHITE)
 	totalscoreRect = totalscoreText.get_rect()
 	totalscoreRect.midtop = (WINDOWWIDTH/2, 150)
 	gameOverRect.midtop = (WINDOWWIDTH/2, 30)
@@ -147,7 +147,7 @@ def showGameOverScreen():
 			return
 
 def drawScore(score):
-	scoreText = FONT.render('Score: %s' % (score), True, WHITE)
+	scoreText = FONT.render('Puntaje: %s' % (score), True, WHITE)
 	scoreRect = scoreText.get_rect()
 	scoreRect.center = (WINDOWWIDTH - 100, 30)
 	SCREEN.blit(scoreText, scoreRect)
