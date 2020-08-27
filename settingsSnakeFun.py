@@ -35,7 +35,7 @@ RIGHT = 'right'
 HEAD = 0 #Index de la cabeza de la serpiente
 
 #Sonidos del juego
-APPLEEATSOUND = pygame.mixer.Sound(r"sounds/appleEatSound.wav")
+APPLEEATSOUND = pygame.mixer.Sound(r"Recursos/SnakeGame/appleEatSound.wav")
 
 def levelSelect():
 	global FPS
