@@ -36,7 +36,7 @@ La evolución mundial de la actividad física es especialmente preocupante en al
 
 Una manera de ponernos en movimiento de forma lúdica,divertida y de bajo costo para niños, niñas,adolescentes e incluso adultos mayores, es integrando actividades físicas mientras se juega videojuegos. 
 
-Mi proyecto consiste en un script ejecutable en Python3 que se puede implementar en simltáneo (en un thread paralelo para ser más específico) a juegos de computadora. Mediante un sistema de captación de video con la cámara web, el script adquiere los movimientos del usuario, los proceso y los traduce en comandos por teclado (previamente configurados). 
+Mi proyecto consiste en un script ejecutable en Python3 que se puede implementar en simultáneo (en un thread paralelo para ser más específico) a juegos de computadora. Mediante un sistema de captación de video con la cámara web, el script adquiere los movimientos del usuario, los proceso y los traduce en comandos por teclado (previamente configurados). 
 
 Previamente había mencionado que es una herramienta de bajo costo. No hay necesidad de contar con la consola Wii, ni un kinect del Xbox 360 ni otro elemento costoso adicional para jugar con el movimiento del cuerpo. Para nuestro caso, debido a que el script funcionando una cierta gama de colores. Basta con que el usuario consiga alguna cartulina del color correspondiente al color configurado, pintar con colores en una hoja, buscar algún elemento del color propuesto o cambiarle el color que está detectando el script para adaptarlo a los elementos que tenga en su casa. Y con eso es más que suficiente para poder comenzar a jugar sus videojuegos.
 
