@@ -1,8 +1,3 @@
-
-
-
-__author__ = "Tripura Coders"
-
 import os
 import sys
 import pygame
@@ -57,7 +52,7 @@ def load_sprite_sheet(
         scaley = -1,
         colorkey = None,
         ):
-    fullname = os.path.join('templates',sheetname)
+    fullname = os.path.join('Recursos/DynoChrome',sheetname)
     sheet = pygame.image.load(fullname)
     sheet = sheet.convert()
 
@@ -505,3 +500,6 @@ def main():
     if not isGameQuit:
         gameplay()
 main()
+
+
+#Bibliografia: https://www.pygame.org/project/4967/7326
