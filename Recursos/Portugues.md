@@ -49,6 +49,8 @@ Atualmente, tenho um controle para jogar o jogo Chrome Dinosaur, em que o usuár
 
 Eu também tenho um controlador para controlar o clássico jogo Snake com minha testa. O usuário se move para a direita, esquerda, para cima e para baixo para mover a cobra no jogo.
 
+ <p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></p>
+
 ## Objetivo de mostrar meu projeto no Freedon Software Day
 
 * Ser capaz de criar scripts genéricos que funcionem para os seus diferentes tipos de videojogos e que mais pessoas se mexam, se divirtam, melhorem a experiência do jogo e acima de tudo melhorem a sua saúde para terem uma melhor qualidade de vida.
