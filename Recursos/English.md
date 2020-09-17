@@ -1,7 +1,7 @@
 # No-sedentarismo-game
 
 <p align="center">
- <img width="100px" src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Readme/videojuegos.svg" align="center" alt="No-sedentarismo-game" />
+ <img width="100px" src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/videojuegos.svg" align="center" alt="No-sedentarismo-game" />
  <h2 align="center">No-sedentarismo-game</h2>
  <p align="center"><b>New way of playing video games, to get moving and avoid sedentary lifestyle.</b></p>
 
