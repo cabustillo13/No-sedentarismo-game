@@ -49,6 +49,8 @@ Actualmente tengo un control para jugar el juego del Dinosaurio de Chrome, donde
 
 También tengo un control para controlar el clásico juego de Snake con la frente. El usuario realiza movimiento hacia la derecha, izquierda, arriba y abajo para mover la serpiente del juego.
 
+ <center><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></center>
+
 ## Objetivo de mostrar mi proyecto en el Freedon Software Day
 
 * Poder crear scripts genéricos, que funcionen para sus distintos tipos de videojuegos  y que más personas se pongan en movimiento,se diviertan, mejorar la experiencia del juego y sobre todo mejoren su salud para tener una mejor calidad de vida. 
