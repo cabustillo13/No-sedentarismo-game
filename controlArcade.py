@@ -116,6 +116,9 @@ while True:
             #Calcular la distancia entre el frame actual y el decimo frame.
             dX = pts[-10][0] - pts[i][0]
             dY = pts[-10][1] - pts[i][1]
+            #Encontrar velocidad
+            #dt=0.5
+            #velocidad = modos.velocidad(dX,dY,dt)
             (dirX, dirY) = ('', '')
 
             #Si la distancia es mayor a 50 pixeles, se debe considerean que la direccion ha cambiado.

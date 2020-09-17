@@ -20,6 +20,10 @@
     <p align="center">
     <a href="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/README.md">Español</a>
     ·
+    <a href="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/English.md">English</a>
+    ·
+    <a href="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/Portugues.md">Português Brasileiro</a>
+    ·
   </p>
 </p>
 

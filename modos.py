@@ -28,3 +28,15 @@ def tipoJuego(last_pressed,direction,keyboard1,keyboard2,keyboard3,keyboard4,lab
             last_pressed = keyboard4
 
     return last_pressed
+
+#Definir velocidad promedio [pixels per frame]
+def velocidad(dx,dy,dt):
+    velx = dx/dt
+    vely = dy/dt
+    vel = (dx**2 + dy**2)**(1/2)
+    return vel
+
+#Definir aceleracion promedio [pixels per frame]
+def aceleracion(vel1,vel2,dt):
+    acel = (vel2-vel1)/dt
+    return acel
