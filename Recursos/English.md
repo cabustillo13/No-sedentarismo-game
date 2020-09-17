@@ -43,6 +43,8 @@ My project consists of an executable Python3 script that can be implemented simu
 
 I had previously mentioned that it is a low cost tool. There's no need for the Wii console, no Xbox 360 kinect, or other expensive add-on to play with body motion. For our case, because the script running a certain range of colors. It is enough for the user to get some cardboard of the color corresponding to the configured color, paint with colors on a sheet, look for an element of the proposed color or change the color that the script is detecting to adapt it to the elements that he has at home. And with that is more than enough to be able to start playing your video games.
 
+ <p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></p>
+
 ## Examples
 
 I currently have a control to play the Chrome Dinosaur game, where the user sticks a piece of cardboard on the shirt, steps away from the camera, and runs the game. The user when jumping, the script interprets that action with the command of the space bar, and it will make the dinosaur jump in the game. When crouching, the script interprets that action with the key down command, and makes the dinosaur crouch.
