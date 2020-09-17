@@ -68,3 +68,11 @@ También tengo un control para controlar el clásico juego de Snake con la frent
 * [Casos de uso en otros países](https://gestion.pe/blog/juegomaniaticos/2017/04/los-videojuegos-y-el-sedentarismo.html/?ref=gesr)
 
 * [Gesture Controlled](https://github.com/mohitwildbeast/Gesture-Controlled-Snake-Game)
+
+## Freedom Software Day Event 2020
+
+**Un agradecimiento especial al grupo de usuarios de software libre de Salta (SaltaLUG) por la oportunidad.**
+
+![SaltaLUG](http://wiki.softwarefreedomday.org/2020/Argentina/Salta/SaltaLUG)
+
+
