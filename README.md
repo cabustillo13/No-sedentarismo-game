@@ -62,3 +62,5 @@ También tengo un control para controlar el clásico juego de Snake con la frent
 * [Artículo de la OMS sobre sedentarismo](https://www.who.int/dietphysicalactivity/factsheet_inactivity/es/)
 
 * [Casos de uso en otros países](https://gestion.pe/blog/juegomaniaticos/2017/04/los-videojuegos-y-el-sedentarismo.html/?ref=gesr)
+
+* [Gesture Controlled](https://github.com/mohitwildbeast/Gesture-Controlled-Snake-Game)
