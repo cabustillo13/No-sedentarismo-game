@@ -71,7 +71,7 @@ También tengo un control para controlar el clásico juego de Snake con la frent
 
 ## Freedom Software Day Event 2020
 
-**Un agradecimiento especial al grupo de usuarios de software libre de Salta SaltaLUG por la oportunidad.**
+**Un agradecimiento especial al grupo de usuarios de software libre de Salta (SaltaLUG) por la oportunidad.**
 
 ![SaltaLUG](http://wiki.softwarefreedomday.org/2020/Argentina/Salta/SaltaLUG)
 
