@@ -6,6 +6,7 @@ from collections import deque
 import time
 import pyautogui
 from threading import Thread
+import modos
 
 #Clase que implementa subprocesos separados para la lectura de los frames.
 class WebcamVideoStream:
@@ -28,10 +29,10 @@ class WebcamVideoStream:
 
 #Recordar que es sensible a la gama de verdes o amarillo fosforecente
 #Definir la gama de colores HSV para objetos de color verde
-greenLower = (29, 86, 6)
-greenUpper = (64, 255, 255)
+colorLower = (29, 86, 6)
+colorUpper = (64, 255, 255)
 
-#Se utiliza en la estructura deque para almacenar numeros de puntos del buffer dados.
+#Se utiliza en la estructura dequeu para almacenar numeros de puntos del buffer dados.
 buffer = 20
 
 #Se usa para que PyAutogui no haga clic en el centro de la pantalla en cada frame.
@@ -74,7 +75,7 @@ while True:
     hsv_converted_frame = cv2.cvtColor(blurred_frame, cv2.COLOR_BGR2HSV)
 
     #Crear una mascara para cada frame, mostrando los valores verdes. 
-    mask = cv2.inRange(hsv_converted_frame, greenLower, greenUpper)
+    mask = cv2.inRange(hsv_converted_frame, colorLower, colorUpper)
     #Erosione la salida enmascarada para eliminar pequeños puntos blancos presentes en la imagen enmascarada.
     mask = cv2.erode(mask, None, iterations = 2)
     #Dilatar la imagen resultante para restaurar nuestro objetivo.
@@ -133,35 +134,7 @@ while True:
         thickness = int(np.sqrt(buffer / float(i + 1)) * 2.5)
         cv2.line(frame, pts[i - 1], pts[i], (0, 0, 255), thickness)
 
-    #Si es detectada la direccion Derecha, apretar el boton de la flecha derecha ->. 
-    if direction == 'Derecha':
-        if last_pressed != 'right':
-            pyautogui.press('right')
-            last_pressed = 'right'
-            print("Right Pressed")
-            #pyautogui.PAUSE = 2
-    #Si es detectada la direccion Izquierda, apretar el boton de la flecha izquierda <-.
-    elif direction == 'Izquierda':
-        if last_pressed != 'left':
-            pyautogui.press('left')
-            last_pressed = 'left'
-            print("Left Pressed")
-            #pyautogui.PAUSE = 2
-    #Si es detectada la direccion Arriba, presionar el boton de la flecha para arriba. 
-    elif direction == 'Arriba':
-        if last_pressed != 'space':
-            last_pressed = 'space'
-            pyautogui.press('space')
-            print("Space Pressed")
-            #pyautogui.PAUSE = 2
-    #Si es detectada la direccion Abajo, presionar el boton de la flecha para abajo.
-    elif direction == 'Abajo':
-        if last_pressed != 'down':
-            pyautogui.press('down')
-            last_pressed = 'down'
-            print("Down Pressed")
-            #pyautogui.PAUSE = 2
-
+    last_pressed = modos.tipoJuego(last_pressed,direction,'right','left','space','down',"Derecha","Izquierda","Arriba","Abajo")
     #Mostrar el frame en el output.
     cv2.imshow('Game Control Window', frame)
     key = cv2.waitKey(1) & 0xFF

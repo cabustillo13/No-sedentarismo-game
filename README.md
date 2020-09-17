@@ -1,8 +1,7 @@
 # No-sedentarismo-game
 
-
 <p align="center">
- <img width="100px" src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/Readme/videojuegos.svg" align="center" alt="No-sedentarismo-game" />
+ <img width="100px" src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Readme/videojuegos.svg" align="center" alt="No-sedentarismo-game" />
  <h2 align="center">No-sedentarismo-game</h2>
  <p align="center"><b>Nueva forma de jugar a los videojuegos, para ponerte en movimiento y evitar el sedentarismo.</b></p>
 
@@ -46,11 +45,11 @@ Actualmente tengo un control para jugar el juego del Dinosaurio de Chrome, donde
 
 También tengo un control para controlar el clásico juego de Snake con la frente. El usuario realiza movimiento hacia la derecha, izquierda, arriba y abajo para mover la serpiente del juego.
 
-## Objetivo de postular mi proyecto a FUNDAV
+## Objetivo de mostrar mi proyecto en el Freedon Software Day
 
-* Poder crear scripts genéricos, que funcionen para sus distintos tipos de videojuegos presentes en su HUB y que más personas se pongan en movimiento,se diviertan, mejorar la experiencia del juego y sobre todo mejoren su salud para tener una mejor calidad de vida. 
+* Poder crear scripts genéricos, que funcionen para sus distintos tipos de videojuegos  y que más personas se pongan en movimiento,se diviertan, mejorar la experiencia del juego y sobre todo mejoren su salud para tener una mejor calidad de vida. 
 
-* También la idea es que sea una herramienta adicional donde tu joystick es tu cuerpo, y se controla por tus movimientos. Ideal para integrarlo a su HUB de videojuegos, a la página de www.juegosargentinos.org y también hacer más dinámico los hackathones.
+* También la idea es que sea una herramienta adicional donde tu joystick es tu cuerpo, y se controla por tus movimientos. 
 
 ## Casos de uso en otros países
 
