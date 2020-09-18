@@ -1,7 +1,7 @@
 # No-sedentarismo-game
 
 <p align="center">
- <img width="100px" src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Readme/videojuegos.svg" align="center" alt="No-sedentarismo-game" />
+ <img width="100px" src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/videojuegos.svg" align="center" alt="No-sedentarismo-game" />
  <h2 align="center">No-sedentarismo-game</h2>
  <p align="center"><b>Nova forma de jogar videogame, para se mexer e evitar o sedentarismo.</b></p>
 
@@ -43,13 +43,15 @@ Meu projeto consiste em um script Python3 executável que pode ser implementado 
 
 Já mencionei que é uma ferramenta de baixo custo. Não há necessidade de console Wii, nem Xbox 360 kinect ou outro complemento caro para brincar com o movimento corporal. Para o nosso caso, porque o script executa uma certa gama de cores. Basta que o usuário pegue um cartão da cor correspondente à cor configurada, pinte com cores em uma folha, procure um elemento da cor proposta ou mude a cor que o script está detectando para adaptá-lo aos elementos que possui em casa. E com isso é mais do que suficiente para começar a jogar seus videogames.
 
+<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></p>
+
 ## Exemplos
 
 Atualmente, tenho um controle para jogar o jogo Chrome Dinosaur, em que o usuário cola um pedaço de papelão na camisa, se afasta da câmera e executa o jogo. O usuário ao pular, o script interpreta essa ação com o comando da barra de espaço, e fará o dinossauro pular no jogo. Ao se agachar, o script interpreta essa ação com o comando de tecla pressionada e faz o dinossauro se agachar.
 
 Eu também tenho um controlador para controlar o clássico jogo Snake com minha testa. O usuário se move para a direita, esquerda, para cima e para baixo para mover a cobra no jogo.
 
-## Objetivo de mostrar meu projeto no Software Freedom Day
+## Objetivo de mostrar meu projeto no Freedon Software Day
 
 * Ser capaz de criar scripts genéricos que funcionem para os seus diferentes tipos de videojogos e que mais pessoas se mexam, se divirtam, melhorem a experiência do jogo e acima de tudo melhorem a sua saúde para terem uma melhor qualidade de vida.
 

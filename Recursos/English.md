@@ -1,7 +1,7 @@
 # No-sedentarismo-game
 
 <p align="center">
- <img width="100px" src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Readme/videojuegos.svg" align="center" alt="No-sedentarismo-game" />
+ <img width="100px" src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/videojuegos.svg" align="center" alt="No-sedentarismo-game" />
  <h2 align="center">No-sedentarismo-game</h2>
  <p align="center"><b>New way of playing video games, to get moving and avoid sedentary lifestyle.</b></p>
 
@@ -42,6 +42,8 @@ One way to get moving in a playful, fun and inexpensive way for children, adoles
 My project consists of an executable Python3 script that can be implemented simultaneously (in a parallel thread to be more specific) to computer games. Through a video capture system with the webcam, the script acquires the user's movements, processes them and translates them into keyboard commands (previously configured).
 
 I had previously mentioned that it is a low cost tool. There's no need for the Wii console, no Xbox 360 kinect, or other expensive add-on to play with body motion. For our case, because the script running a certain range of colors. It is enough for the user to get some cardboard of the color corresponding to the configured color, paint with colors on a sheet, look for an element of the proposed color or change the color that the script is detecting to adapt it to the elements that he has at home. And with that is more than enough to be able to start playing your video games.
+
+<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></p>
 
 ## Examples
 

@@ -43,13 +43,15 @@ Mi proyecto consiste en un script ejecutable en Python3 que se puede implementar
 
 Previamente había mencionado que es una herramienta de bajo costo. No hay necesidad de contar con la consola Wii, ni un kinect del Xbox 360 ni otro elemento costoso adicional para jugar con el movimiento del cuerpo. Para nuestro caso, debido a que el script funcionando una cierta gama de colores. Basta con que el usuario consiga alguna cartulina del color correspondiente al color configurado, pintar con colores en una hoja, buscar algún elemento del color propuesto o cambiarle el color que está detectando el script para adaptarlo a los elementos que tenga en su casa. Y con eso es más que suficiente para poder comenzar a jugar sus videojuegos.
 
+<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></p>
+
 ## Ejemplos
 
 Actualmente tengo un control para jugar el juego del Dinosaurio de Chrome, donde el usuario se pega un pedazo de cartulina en la camisa, se aleja de la cámara y ejecuta el juego. El usuario al saltar, el script interpreta esa acción con el comando de la barra espaciado, y hará que el dinosaurio salte en el juego. Al agacharse, el script interpreta esa acció con el comando de la key down, y haŕa que el dinosaurio se agache.
 
 También tengo un control para controlar el clásico juego de Snake con la frente. El usuario realiza movimiento hacia la derecha, izquierda, arriba y abajo para mover la serpiente del juego.
 
-## Objetivo de mostrar mi proyecto en el Software Freedom Day
+## Objetivo de mostrar mi proyecto en el Freedon Software Day
 
 * Poder crear scripts genéricos, que funcionen para sus distintos tipos de videojuegos  y que más personas se pongan en movimiento,se diviertan, mejorar la experiencia del juego y sobre todo mejoren su salud para tener una mejor calidad de vida. 
 
