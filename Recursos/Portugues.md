@@ -49,7 +49,7 @@ Atualmente, tenho um controle para jogar o jogo Chrome Dinosaur, em que o usuár
 
 Eu também tenho um controlador para controlar o clássico jogo Snake com minha testa. O usuário se move para a direita, esquerda, para cima e para baixo para mover a cobra no jogo.
 
-## Objetivo de mostrar meu projeto no Freedon Software Day
+## Objetivo de mostrar meu projeto no Software Freedom Day
 
 * Ser capaz de criar scripts genéricos que funcionem para os seus diferentes tipos de videojogos e que mais pessoas se mexam, se divirtam, melhorem a experiência do jogo e acima de tudo melhorem a sua saúde para terem uma melhor qualidade de vida.
 
@@ -68,3 +68,11 @@ Eu também tenho um controlador para controlar o clássico jogo Snake com minha 
 * [Casos de uso em outros países](https://gestion.pe/blog/juegomaniaticos/2017/04/los-videojuegos-y-el-sedentarismo.html/?ref=gesr)
 
 * [Gesture Controlled](https://github.com/mohitwildbeast/Gesture-Controlled-Snake-Game)
+
+* [Dyno Chrome Game](https://www.pygame.org/news)
+
+## Software Freedom Day Event 2020
+
+**Um agradecimento especial ao grupo de usuários de software libre de Salta (SaltaLUG) pela oportunidade.**
+
+![SaltaLUG](http://wiki.softwarefreedomday.org/2020/Argentina/Salta/SaltaLUG)

@@ -49,7 +49,7 @@ I currently have a control to play the Chrome Dinosaur game, where the user stic
 
 I also have a controller to control the classic Snake game with my forehead. The user moves to the right, left, up and down to move the snake in the game.
 
-## Objective of showing my project at Freedon Software Day
+## Objective of showing my project at Software Freedom Day
 
 * Being able to create generic scripts that work for your different types of video games and that more people get moving, have fun, improve the experience of the game and above all improve their health to have a better quality of life.
 
@@ -68,3 +68,11 @@ I also have a controller to control the classic Snake game with my forehead. The
 * [Use cases in other countries](https://gestion.pe/blog/juegomaniaticos/2017/04/los-videojuegos-y-el-sedentarismo.html/?ref=gesr)
 
 * [Gesture Controlled](https://github.com/mohitwildbeast/Gesture-Controlled-Snake-Game)
+
+* [Dyno Chrome Game](https://www.pygame.org/news)
+
+## Software Freedom Day Event 2020
+
+**A special thanks to the user group of software libre de Salta (SaltaLUG) for the opportunity.**
+
+![SaltaLUG](http://wiki.softwarefreedomday.org/2020/Argentina/Salta/SaltaLUG)

@@ -49,7 +49,7 @@ Actualmente tengo un control para jugar el juego del Dinosaurio de Chrome, donde
 
 También tengo un control para controlar el clásico juego de Snake con la frente. El usuario realiza movimiento hacia la derecha, izquierda, arriba y abajo para mover la serpiente del juego.
 
-## Objetivo de mostrar mi proyecto en el Freedon Software Day
+## Objetivo de mostrar mi proyecto en el Software Freedom Day
 
 * Poder crear scripts genéricos, que funcionen para sus distintos tipos de videojuegos  y que más personas se pongan en movimiento,se diviertan, mejorar la experiencia del juego y sobre todo mejoren su salud para tener una mejor calidad de vida. 
 
@@ -69,7 +69,9 @@ También tengo un control para controlar el clásico juego de Snake con la frent
 
 * [Gesture Controlled](https://github.com/mohitwildbeast/Gesture-Controlled-Snake-Game)
 
-## Freedom Software Day Event 2020
+* [Dyno Chrome Game](https://www.pygame.org/news)
+
+## Software Freedom Day Event 2020
 
 **Un agradecimiento especial al grupo de usuarios de software libre de Salta (SaltaLUG) por la oportunidad.**
 
