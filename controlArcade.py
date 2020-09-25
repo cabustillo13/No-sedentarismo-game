@@ -105,37 +105,41 @@ while True:
             #Agregar el objeto detectado al frame en la estructura de puntos deque
             pts.appendleft(center)
 
-    #Se usa la funcion arange de numpy para un mejor rendimiento. Se hace un loop para todos los puntos detectados.
+    # Se usa la funcion arange de numpy para un mejor rendimiento. Se hace un loop para todos los puntos detectados.
     for i in np.arange(1, len(pts)):
-        #Si no hay puntos detectados, muevete.
-        if(pts[i-1] == None or pts[i] == None):
+        # Si no hay puntos detectados, muevete.
+        if pts[i - 1] == None or pts[i] == None:
             continue
+        #Si no encuentro el objeto, manejo la excepcion y solo informo que no la encontre
+        try:
+            #Si al menos 10 frames tienen un cambio de direccion, se procede.
+            if counter >= 10 and i == 1 and pts[-10] is not None:
+                #Calcular la distancia entre el frame actual y el decimo frame.
+                dX = pts[-10][0] - pts[i][0]
+                dY = pts[-10][1] - pts[i][1]
+                #Encontrar velocidad
+                #dt=0.5
+                #velocidad = gesture_detector.velocidad(dX,dY,dt)
+                (dirX, dirY) = ('', '')
 
-        #Si al menos 10 frames tienen un cambio de direccion, se procede.
-        if counter >= 10 and i == 1 and pts[-10] is not None:
-            #Calcular la distancia entre el frame actual y el decimo frame.
-            dX = pts[-10][0] - pts[i][0]
-            dY = pts[-10][1] - pts[i][1]
-            #Encontrar velocidad
-            #dt=0.5
-            #velocidad = modos.velocidad(dX,dY,dt)
-            (dirX, dirY) = ('', '')
+                #Si la distancia es mayor a 50 pixeles, se debe considerean que la direccion ha cambiado.
+                if np.abs(dX) > 50:
+                    dirX = 'Izquierda' if np.sign(dX) == 1 else 'Derecha'
 
-            #Si la distancia es mayor a 50 pixeles, se debe considerean que la direccion ha cambiado.
-            if np.abs(dX) > 50:
-                dirX = 'Izquierda' if np.sign(dX) == 1 else 'Derecha'
+                if np.abs(dY) > 50:
+                    dirY = 'Arriba' if np.sign(dY) == 1 else 'Abajo'
 
-            if np.abs(dY) > 50:
-                dirY = 'Arriba' if np.sign(dY) == 1 else 'Abajo'
-
-            #Set el valor de la direccion a la direccion detectada.
-            direction = dirX if dirX != '' else dirY
-            #Escribir la direccion detectada en el frame.
-            cv2.putText(frame, direction, (20,40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 3)
-
-        #Dibuja una linea roja al final para representar el movimiento del objeto.
-        thickness = int(np.sqrt(buffer / float(i + 1)) * 2.5)
-        cv2.line(frame, pts[i - 1], pts[i], (0, 0, 255), thickness)
+                #Set el valor de la direccion a la direccion detectada.
+                direction = dirX if dirX != '' else dirY
+                #Escribir la direccion detectada en el frame.
+                cv2.putText(frame, direction, (20,40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 3)
+            
+                #Dibuja una linea roja al final para representar el movimiento del objeto.
+                thickness = int(np.sqrt(buffer / float(i + 1)) * 2.5)
+                cv2.line(frame, pts[i - 1], pts[i], (0, 0, 255), thickness)
+            
+        except:
+            print("No encontre el objeto")
 
     last_pressed = modos.tipoJuego(last_pressed,direction,'right','left','space','down',"Derecha","Izquierda","Arriba","Abajo")
     #Mostrar el frame en el output.
