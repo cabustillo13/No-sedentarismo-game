@@ -41,19 +41,18 @@ Uma forma de se movimentar de forma lúdica, divertida e econômica para crianç
 
 Meu projeto consiste em um script Python3 executável que pode ser implementado simultaneamente (em um thread paralelo para ser mais específico) para jogos de computador. Por meio de um sistema de captura de vídeo com a webcam, o script adquire os movimentos do usuário, os processa e os traduz em comandos de teclado (previamente configurados).
 
-Já mencionei que é uma ferramenta de baixo custo. Não há necessidade de console Wii, nem Xbox 360 kinect ou outro complemento caro para brincar com o movimento corporal. Para o nosso caso, porque o script executa uma certa gama de cores. Basta que o usuário pegue um cartão da cor correspondente à cor configurada, pinte com cores em uma folha, procure um elemento da cor proposta ou mude a cor que o script está detectando para adaptá-lo aos elementos que possui em casa. E com isso é mais do que suficiente para começar a jogar seus videogames.
-
+Acabei de mencionar que ele é um ferramenta de baixo custo. Não há necessidade de um console Wii, um Kinect Xbox 360 ou qualquer outro acessório caro para pular como um movimento corporal. Para ou não, porque o script funciona em uma determinada gama de núcleos. Basta o usuário colar um papel correspondente ao configurado, pintar com núcleos em uma folha, buscar um elemento da finalidade correspondente ou alterar o que o script está detectando para adaptá-lo aos elementos em que o item está casa. E isso é mais do que suficiente para começar a jogar seus videogames.
 <p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></p>
 
 ## Exemplos
 
-Atualmente, tenho um controle para jogar o jogo Chrome Dinosaur, em que o usuário cola um pedaço de papelão na camisa, se afasta da câmera e executa o jogo. O usuário ao pular, o script interpreta essa ação com o comando da barra de espaço, e fará o dinossauro pular no jogo. Ao se agachar, o script interpreta essa ação com o comando de tecla pressionada e faz o dinossauro se agachar.
+Atualmente, tenho um controle para jogar o jogo Chrome Dinosaur, em que o usuário cola um pedaço de papelão na camisa, se afasta da câmera e executa o jogo. O usuário ao pular, o script interpreta essa ação com o comando da barra de espaço, e fará o dinossauro pular no jogo. Ao se agachar, o script interpreta essa ação com o comando de tecla para baixo e fará com que o dinossauro se agache.
 
-Eu também tenho um controlador para controlar o clássico jogo Snake com minha testa. O usuário se move para a direita, esquerda, para cima e para baixo para mover a cobra no jogo.
+Também controlamos o clássico jogo Snake com a testa. O usuário se move para a direita, esquerda, para cima e para baixo para mover a cobra no jogo.
 
-## Objetivo de mostrar meu projeto no Freedon Software Day
+## Objetivo de mostrar meu projeto no Freedom Software Day
 
-* Ser capaz de criar scripts genéricos que funcionem para os seus diferentes tipos de videojogos e que mais pessoas se mexam, se divirtam, melhorem a experiência do jogo e acima de tudo melhorem a sua saúde para terem uma melhor qualidade de vida.
+* Ser capaz de criar scripts genéricos que funcionem para os seus diferentes tipos de videojogos e que mais pessoas se mexam, se divirtam, melhorem a experiência do jogo e sobretudo gerem um progresso significativo na sua saúde para terem uma qualidade de vida superior.
 
 * Além disso, a ideia é que é uma ferramenta adicional onde o joystick é o seu corpo, e é controlado pelos seus movimentos.
 
