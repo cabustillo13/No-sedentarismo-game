@@ -41,19 +41,19 @@ One way to get moving in a playful, fun and inexpensive way for children, adoles
 
 My project consists of an executable Python3 script that can be implemented simultaneously (in a parallel thread to be more specific) to computer games. Through a video capture system with the webcam, the script acquires the user's movements, processes them and translates them into keyboard commands (previously configured).
 
-I had previously mentioned that it is a low cost tool. There's no need for the Wii console, no Xbox 360 kinect, or other expensive add-on to play with body motion. For our case, because the script running a certain range of colors. It is enough for the user to get some cardboard of the color corresponding to the configured color, paint with colors on a sheet, look for an element of the proposed color or change the color that the script is detecting to adapt it to the elements that he has at home. And with that is more than enough to be able to start playing your video games.
+I had previously mentioned that it is a low cost tool. There's no need for the Wii console, no Xbox 360 kinect, or other expensive add-on to play with body motion. For our case, because the script works a certain range of colors. It is enough for the user to get some cardboard of the color corresponding to the configured color, paint with colors on a sheet, look for an element of the proposed color or change the color that the script is detecting to adapt it to the elements that he has at home. And with that is more than enough to be able to start playing your video games.
 
 <p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></p>
 
 ## Examples
 
-I currently have a control to play the Chrome Dinosaur game, where the user sticks a piece of cardboard on the shirt, steps away from the camera, and runs the game. The user when jumping, the script interprets that action with the command of the space bar, and it will make the dinosaur jump in the game. When crouching, the script interprets that action with the key down command, and makes the dinosaur crouch.
+I currently have a control to play the Chrome Dinosaur game, where the user sticks a piece of cardboard on the shirt, steps away from the camera, and runs the game. The user when jumping, the script interprets that action with the command of the space bar, and it will make the dinosaur jump in the game. When crouching, the script interprets that action with the key down command, and it will cause the dinosaur to crouch.
 
-I also have a controller to control the classic Snake game with my forehead. The user moves to the right, left, up and down to move the snake in the game.
+We also control the classic Snake game with our forehead. The user moves to the right, left, up and down to move the snake in the game.
 
 ## Objective of showing my project at Software Freedom Day
 
-* Being able to create generic scripts that work for your different types of video games and that more people get moving, have fun, improve the experience of the game and above all improve their health to have a better quality of life.
+* Being able to create generic scripts that work for your different types of video games and that more people get moving, have fun, improve the experience of the game and above all generate significant progress in their health to have a superior quality of life.
 
 * Also the idea is that it is an additional tool where your joystick is your body, and it is controlled by your movements. 
 
