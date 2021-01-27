@@ -39,21 +39,21 @@ La evolución mundial de la actividad física es especialmente preocupante en al
 
 Una manera de ponernos en movimiento de forma lúdica,divertida y de bajo costo para niños, niñas,adolescentes e incluso adultos mayores, es integrando actividades físicas mientras se juega videojuegos. 
 
-Mi proyecto consiste en un script ejecutable en Python3 que se puede implementar en simultáneo (en un thread paralelo para ser más específico) a juegos de computadora. Mediante un sistema de captación de video con la cámara web, el script adquiere los movimientos del usuario, los proceso y los traduce en comandos por teclado (previamente configurados). 
+Mi proyecto consiste en un script ejecutable en Python3 que se puede implementar en simultáneo (en un thread paralelo para ser más específico) a juegos de computadora. Mediante un sistema de captación de video con la cámara web, el script adquiere los movimientos del usuario, los procesa y los traduce en comandos por teclado (previamente configurados). 
 
-Previamente había mencionado que es una herramienta de bajo costo. No hay necesidad de contar con la consola Wii, ni un kinect del Xbox 360 ni otro elemento costoso adicional para jugar con el movimiento del cuerpo. Para nuestro caso, debido a que el script funcionando una cierta gama de colores. Basta con que el usuario consiga alguna cartulina del color correspondiente al color configurado, pintar con colores en una hoja, buscar algún elemento del color propuesto o cambiarle el color que está detectando el script para adaptarlo a los elementos que tenga en su casa. Y con eso es más que suficiente para poder comenzar a jugar sus videojuegos.
+Previamente había mencionado que es una herramienta de bajo costo. No hay necesidad de contar con la consola Wii, ni un kinect del Xbox 360 ni otro elemento costoso adicional para jugar con el movimiento del cuerpo. Para nuestro caso, debido a que el script funciona una cierta gama de colores. Basta con que el usuario consiga alguna cartulina del color correspondiente al color configurado, pintar con colores en una hoja, buscar algún elemento del color propuesto o cambiarle el color que está detectando el script para adaptarlo a los elementos que tenga en su casa. Y con eso es más que suficiente para poder comenzar a jugar sus videojuegos.
 
 <p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></p>
 
 ## Ejemplos
 
-Actualmente tengo un control para jugar el juego del Dinosaurio de Chrome, donde el usuario se pega un pedazo de cartulina en la camisa, se aleja de la cámara y ejecuta el juego. El usuario al saltar, el script interpreta esa acción con el comando de la barra espaciado, y hará que el dinosaurio salte en el juego. Al agacharse, el script interpreta esa acció con el comando de la key down, y haŕa que el dinosaurio se agache.
+Actualmente tengo un control para jugar el juego del Dinosaurio de Chrome, donde el usuario se pega un pedazo de cartulina en la camisa, se aleja de la cámara y ejecuta el juego. El usuario al saltar, el script interpreta esa acción con el comando de la barra espaciado, y hará que el dinosaurio salte en el juego. Al agacharse, el script interpreta esa acción con el comando de la key down, y hará que el dinosaurio se agache.
 
-También tengo un control para controlar el clásico juego de Snake con la frente. El usuario realiza movimiento hacia la derecha, izquierda, arriba y abajo para mover la serpiente del juego.
+También controlamos el clásico juego de Snake con la frente. El usuario realiza movimiento hacia la derecha, izquierda, arriba y abajo para mover la serpiente del juego.
 
-## Objetivo de mostrar mi proyecto en el Freedon Software Day
+## Objetivo de mostrar mi proyecto en el Freedom Software Day
 
-* Poder crear scripts genéricos, que funcionen para sus distintos tipos de videojuegos  y que más personas se pongan en movimiento,se diviertan, mejorar la experiencia del juego y sobre todo mejoren su salud para tener una mejor calidad de vida. 
+* Poder crear scripts genéricos, que funcionen para sus distintos tipos de videojuegos  y que más personas se pongan en movimiento, se diviertan, mejorar la experiencia del juego y sobre todo generar progresos significativos en su salud para tener una calidad de vida superior. 
 
 * También la idea es que sea una herramienta adicional donde tu joystick es tu cuerpo, y se controla por tus movimientos. 
 
