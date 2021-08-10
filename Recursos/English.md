@@ -82,4 +82,4 @@ Thanks to OpenCV for the opportunity to participate in this great competition.
 
 **A special thanks to the user group of software libre de Salta (SaltaLUG) for the opportunity.**
 
-![SaltaLUG](http://wiki.softwarefreedomday.org/2020/Argentina/Salta/SaltaLUG)
+[SaltaLUG](http://wiki.softwarefreedomday.org/2020/Argentina/Salta/SaltaLUG)
