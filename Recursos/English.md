@@ -73,6 +73,11 @@ We also control the classic Snake game with our forehead. The user moves to the 
 
 * [Dyno Chrome Game](https://www.pygame.org/news)
 
+## PDF Presentation 
+[OPENCV AI COMPETITION 2021](https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/OpenCV_AI_Competition___Mendoza_Cracken_13.pdf)
+
+Thanks to OpenCV for the opportunity to participate in this great competition.
+
 ## Software Freedom Day Event 2020
 
 **A special thanks to the user group of software libre de Salta (SaltaLUG) for the opportunity.**
