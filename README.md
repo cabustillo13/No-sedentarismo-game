@@ -73,10 +73,15 @@ También controlamos el clásico juego de Snake con la frente. El usuario realiz
 
 * [Dyno Chrome Game](https://www.pygame.org/news)
 
+## PDF Presentación
+[OPENCV AI COMPETITION 2021](https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/OpenCV_AI_Competition___Mendoza_Cracken_13.pdf)
+
+Gracias a OpenCV por la oportunidad de participar en esta gran competencia.
+
 ## Software Freedom Day Event 2020
 
 **Un agradecimiento especial al grupo de usuarios de software libre de Salta (SaltaLUG) por la oportunidad.**
 
-![SaltaLUG](http://wiki.softwarefreedomday.org/2020/Argentina/Salta/SaltaLUG)
+[SaltaLUG](http://wiki.softwarefreedomday.org/2020/Argentina/Salta/SaltaLUG)
 
 
