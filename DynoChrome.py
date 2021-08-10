@@ -20,7 +20,7 @@ screen = pygame.display.set_mode(scr_size)
 clock = pygame.time.Clock()
 
 #pygame.display.set_caption("Dino Run by Tripura Coders")
-pygame.display.set_caption("Dino Chrome - SaltaLUG")
+pygame.display.set_caption("OpenCV AI COMPETITION")
 
 jump_sound = pygame.mixer.Sound('Recursos/DynoChrome/jump.wav')
 die_sound = pygame.mixer.Sound('Recursos/DynoChrome/die.wav')
@@ -301,7 +301,7 @@ def introscreen():
     temp_ground_rect.left = width/20
     temp_ground_rect.bottom = height
 
-    logo,logo_rect = load_image('logo.jpg',300,140,-1)
+    logo,logo_rect = load_image('logo.png',300,140,-1)
     logo_rect.centerx = width*0.6
     logo_rect.centery = height*0.6
     while not gameStart:
