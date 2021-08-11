@@ -27,6 +27,12 @@
   </p>
 </p>
 
+## OPENCV AI COMPETITION 2021
+Thanks to OpenCV for the opportunity to participate in this great competition.
+
+- [PDF Presentation](https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/OpenCV_AI_Competition___Mendoza_Cracken_13.pdf)
+- [Video Presentation](https://www.youtube.com/watch?v=vLZ9rnK3UkA&ab_channel=CarlosBustillo)
+
 ## Problematic
 
 According to the World Health Organization, at least 60% of the world's population does not engage in the physical activity necessary to obtain health benefits. This is partly due to insufficient participation in physical activity during leisure time and an increase in sedentary behaviors during work and home activities.
@@ -43,7 +49,11 @@ My project consists of an executable Python3 script that can be implemented simu
 
 I had previously mentioned that it is a low cost tool. There's no need for the Wii console, no Xbox 360 kinect, or other expensive add-on to play with body motion. For our case, because the script works a certain range of colors. It is enough for the user to get some cardboard of the color corresponding to the configured color, paint with colors on a sheet, look for an element of the proposed color or change the color that the script is detecting to adapt it to the elements that he has at home. And with that is more than enough to be able to start playing your video games.
 
-<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></p>
+<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image 1" height="300" width="650"></p>
+<p align="center"><b>Fig. 1: Dino Chrome Video Game.</b></p>
+ 
+<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo2.JPG" alt="example image 2" height="300" width="650"></p>
+<p align="center"><b>Fig. 2: Classic Boxing video game for the Nintendo console.</b></p>
 
 ## Examples
 
@@ -73,13 +83,8 @@ We also control the classic Snake game with our forehead. The user moves to the 
 
 * [Dyno Chrome Game](https://www.pygame.org/news)
 
-## PDF Presentation 
-[OPENCV AI COMPETITION 2021](https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/OpenCV_AI_Competition___Mendoza_Cracken_13.pdf)
-
-Thanks to OpenCV for the opportunity to participate in this great competition.
-
 ## Software Freedom Day Event 2020
 
-**A special thanks to the user group of software libre de Salta (SaltaLUG) for the opportunity.**
+**A special thanks to the group of users of free software of Salta (SaltaLUG) for the opportunity to show my project.**
 
 [SaltaLUG](http://wiki.softwarefreedomday.org/2020/Argentina/Salta/SaltaLUG)
