@@ -27,6 +27,12 @@
   </p>
 </p>
 
+## OPENCV AI COMPETITION 2021
+Gracias a OpenCV por la oportunidad de participar en esta gran competencia.
+
+- [PDF Presentación](https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/OpenCV_AI_Competition___Mendoza_Cracken_13.pdf)
+- [Video Presentación](https://www.youtube.com/watch?v=vLZ9rnK3UkA&ab_channel=CarlosBustillo)
+
 ## Problemática
 
 Según la Organización Mundial de la Salud, al menos un 60% de la población mundial no realiza la actividad física necesaria para obtener beneficios para la salud. Esto se debe en parte a la insuficiente participación en la actividad física durante el tiempo de ocio y a un aumento de los comportamientos sedentarios durante las actividades laborales y domésticas. 
@@ -73,14 +79,9 @@ También controlamos el clásico juego de Snake con la frente. El usuario realiz
 
 * [Dyno Chrome Game](https://www.pygame.org/news)
 
-## PDF Presentación
-[OPENCV AI COMPETITION 2021](https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/OpenCV_AI_Competition___Mendoza_Cracken_13.pdf)
-
-Gracias a OpenCV por la oportunidad de participar en esta gran competencia.
-
 ## Software Freedom Day Event 2020
 
-**Un agradecimiento especial al grupo de usuarios de software libre de Salta (SaltaLUG) por la oportunidad.**
+**Un agradecimiento especial al grupo de usuarios de software libre de Salta (SaltaLUG) por la oportunidad de mostrar mi proyecto.**
 
 [SaltaLUG](http://wiki.softwarefreedomday.org/2020/Argentina/Salta/SaltaLUG)
 
