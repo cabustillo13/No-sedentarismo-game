@@ -27,6 +27,12 @@
   </p>
 </p>
 
+## OPENCV AI COMPETITION 2021
+Obrigado ao OpenCV pela oportunidade de participar desta grande competição.
+
+- [PDF Apresentação](https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/OpenCV_AI_Competition___Mendoza_Cracken_13.pdf)
+- [Apresentação de Vídeo](https://www.youtube.com/watch?v=vLZ9rnK3UkA&ab_channel=CarlosBustillo)
+
 ## Problemático
 
 De acordo com a Organização Mundial da Saúde, pelo menos 60% da população mundial não pratica a atividade física necessária para obter benefícios à saúde. Em parte, isso se deve à participação insuficiente em atividades físicas no lazer e ao aumento de comportamentos sedentários durante as atividades de trabalho e em casa.
@@ -42,7 +48,12 @@ Uma forma de se movimentar de forma lúdica, divertida e econômica para crianç
 Meu projeto consiste em um script Python3 executável que pode ser implementado simultaneamente (em um thread paralelo para ser mais específico) para jogos de computador. Por meio de um sistema de captura de vídeo com a webcam, o script adquire os movimentos do usuário, os processa e os traduz em comandos de teclado (previamente configurados).
 
 Acabei de mencionar que ele é um ferramenta de baixo custo. Não há necessidade de um console Wii, um Kinect Xbox 360 ou qualquer outro acessório caro para pular como um movimento corporal. Para ou não, porque o script funciona em uma determinada gama de núcleos. Basta o usuário colar um papel correspondente ao configurado, pintar com núcleos em uma folha, buscar um elemento da finalidade correspondente ou alterar o que o script está detectando para adaptá-lo aos elementos em que o item está casa. E isso é mais do que suficiente para começar a jogar seus videogames.
-<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></p>
+
+<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image 1" height="300" width="650"></p>
+<p align="center"><b>Fig. 1: Videogame Dino Chrome.</b></p>
+ 
+<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo2.JPG" alt="example image 2" height="300" width="650"></p>
+<p align="center"><b>Fig. 2: Videogame clássico de boxe para o console Nintendo.</b></p>
 
 ## Exemplos
 
@@ -72,13 +83,8 @@ Também controlamos o clássico jogo Snake com a testa. O usuário se move para 
 
 * [Dyno Chrome Game](https://www.pygame.org/news)
 
-## PDF Apresentação
-[OPENCV AI COMPETITION 2021](https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/OpenCV_AI_Competition___Mendoza_Cracken_13.pdf)
-
-Obrigado ao OpenCV pela oportunidade de participar desta grande competição.
-
 ## Software Freedom Day Event 2020
 
-**Um agradecimento especial ao grupo de usuários de software libre de Salta (SaltaLUG) pela oportunidade.**
+**Um agradecimento especial ao grupo de usuários de software livre de Salta (SaltaLUG) pela oportunidade de mostrar meu projeto.**
 
 [SaltaLUG](http://wiki.softwarefreedomday.org/2020/Argentina/Salta/SaltaLUG)
