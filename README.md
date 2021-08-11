@@ -49,7 +49,11 @@ Mi proyecto consiste en un script ejecutable en Python3 que se puede implementar
 
 Previamente había mencionado que es una herramienta de bajo costo. No hay necesidad de contar con la consola Wii, ni un kinect del Xbox 360 ni otro elemento costoso adicional para jugar con el movimiento del cuerpo. Para nuestro caso, debido a que el script funciona una cierta gama de colores. Basta con que el usuario consiga alguna cartulina del color correspondiente al color configurado, pintar con colores en una hoja, buscar algún elemento del color propuesto o cambiarle el color que está detectando el script para adaptarlo a los elementos que tenga en su casa. Y con eso es más que suficiente para poder comenzar a jugar sus videojuegos.
 
-<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image" height="300" width="650"></p>
+<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo1.png" alt="example image 1" height="300" width="650"></p>
+<p align="center"><b>Fig. 1: Videojuego de Dino Chrome.</b></p>
+ 
+<p align="center"><img src="https://github.com/cabustillo13/No-sedentarismo-game/blob/master/Recursos/photo2.JPG" alt="example image 2" height="300" width="650"></p>
+<p align="center"><b>Fig. 2: Videojuego clásico de Boxeo para la consola Nintendo.</b></p>
 
 ## Ejemplos
 
